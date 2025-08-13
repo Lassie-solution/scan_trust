@@ -58,10 +58,6 @@ const Index = () => {
               <div className="w-1.5 h-1.5 bg-emerald-500 rounded-full mr-1"></div>
               Live
             </Badge>
-            <Button variant="outline" size="sm" className="hidden sm:flex text-sm">
-              <Github className="h-4 w-4 mr-1" />
-              Code
-            </Button>
           </div>
         </div>
       </header>
@@ -97,14 +93,6 @@ const Index = () => {
               >
                 <Scan className="h-5 w-5 mr-2" />
                 Start Scanning
-              </Button>
-              <Button 
-                variant="outline" 
-                size="lg"
-                className="border-gray-300 hover:bg-gray-50 flex-1 sm:flex-none"
-              >
-                <Code className="h-5 w-5 mr-2" />
-                View Code
               </Button>
             </div>
 
@@ -228,10 +216,6 @@ const Index = () => {
                 <Code className="h-5 w-5 mr-2" />
                 View Documentation
               </Button>
-              <Button variant="outline" size="lg" className="border-primary-foreground text-primary-foreground hover:bg-primary-foreground hover:text-primary">
-                <Github className="h-5 w-5 mr-2" />
-                GitHub Repository
-              </Button>
             </div>
           </div>
         </div>
@@ -274,7 +258,7 @@ const Index = () => {
           
           <div className="mt-8 pt-8 border-t border-gray-100 text-center">
             <p className="text-gray-500">
-              Built with React, TypeScript, Tailwind CSS & Tesseract.js
+              Built with Django, React, TypeScript, Tailwind CSS & Tesseract (OCR)
             </p>
           </div>
         </div>
